@@ -1,0 +1,151 @@
+header{
+    padding: 10px;
+    display: flex;
+    
+}
+
+.box-logo{
+    display: flex;
+    width: 90px;
+    padding-left: 80px;
+}
+
+ figure img{
+     width: 60px;
+     height: 60px;
+     margin-right: 3px;
+ }
+
+ .nav-bar{
+     width: 500px;
+     align-content: center;
+     margin-left: auto;
+     margin-right: 0;
+     padding: 20px;
+     display: flex;
+     background-color: #5fc4ff;
+ }
+
+ 
+ nav li{
+     list-style: none;
+     display: inline-block;
+     padding: 5px;
+     font-family: 'Noto Sans', sans-serif;
+     color: black;
+     font-size: 15px;
+     
+    
+ }
+ main{
+     width: 100vw;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
+ .carrousel-inicio{
+     width: 100vw;
+     min-height: 1rem;
+     margin-top: auto;
+     display: flex;
+ 
+ }
+ 
+ .carrousel-inicio-1{
+     background-color: rgb(236, 236, 236);
+     width: 100vw;
+     min-height: 1vh;
+     align-content: center;
+ 
+ }
+ 
+ .carrousel-inicio-1 img{
+     width: 100%;
+     height: 500px;
+ 
+  }
+ 
+  .articulos{
+     width: 100vw;
+     min-height: 1vh;
+     margin-left: auto;
+     margin-right: auto;
+     align-content: center;  
+    text-align: center;
+ 
+ }
+ 
+  .container{
+     width: 100vw;
+     margin-right: auto;
+     margin-left: auto;
+     display: flex;
+ 
+ } 
+ 
+  .container h5{
+     background-color: rgb(211, 211, 211);
+     width: 100px;
+     border-radius: 10px;
+     padding: 2px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+ }
+ 
+ .mobile-articulo-1{
+     width: 150px; 
+      height: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }  
+ 
+ .mobile-articulo-1 img{
+     width: 150px;
+     height: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+
+ .box-articulo-1{
+
+     width: 50vw;
+     flex-direction: column;
+     order: 2;
+ }
+
+ .box-articulo-2{
+    flex-direction: column;
+    width: 50vw;
+    order: 2;
+}
+
+ .especificaciones-p1{
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+     width: 400px;
+
+ }
+
+ .especificaciones-p1 ul{
+     padding: 20px;
+ }
+ 
+ .especificaciones-p1 li{
+     font-size: 10px;
+     text-align: justify;
+ }
+ 
+ footer{
+     background-color: darkcyan;
+     width: 100vw;
+     color: white;
+ }
+ 
+ footer p{
+     font-size: 12px;
+     text-align: center;
+ }
